@@ -1,0 +1,119 @@
+* {margin:0;
+  padding:0;}
+  
+  .nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+  }
+  
+  .nav button{
+    padding:15px 40px 15px 40px;
+    border:2px solid green;
+    background-color: green;
+    color:white;
+    font-size: 20px;
+    font-weight:bold;
+    text-decoration: none;
+  }
+  .nav p {
+    display:flex;
+    justify-content:space-around ;
+    align-items: center;
+  }
+  
+  
+  .nav p a {display:flex;
+    justify-content:space-around;
+    width:100%;
+    align-items:center;
+    background-color: black;
+    color:white;
+    text-align-last: right ;
+    text-decoration: none;
+  }
+  
+  #black{
+    display:flex;
+    justify-content: space-between;
+    width:35%;
+  }
+
+  .wrap-panel {display:flex}
+
+  .pmain1 {padding:5px 20px 5px 20px;
+    margin:15px 15px;
+    border:3px solid black;
+    width:1100px;
+    height:150px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .pmain1 ol{display:flex;
+    justify-content: space-evenly;
+  }
+  .pmain1 ol li {width: 100px;
+    height: 100px;
+    background-color: black;
+    border:2px solid white;
+    padding:0 0 10px 20px;
+    padding:15px;
+    color:white;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .pmain2 {padding:5px 20px 5px 20px;
+    margin:15px 15px;
+    border:3px solid black;
+    width:1100px;
+    height:150px;
+    display:flex;
+    align-items: center;}
+      
+    .pmain2 ol{display:flex;
+      justify-content: right;
+    }
+    .pmain2 ol li {width: 100px;
+      height: 100px;
+      background-color: black;
+      border:2px solid white;
+      padding:0 0 10px 20px;
+      display:flex;
+      justify-content: right;
+      padding:15px;
+      color:white;
+    }
+    .pmain3 {padding:5px 20px 5px 20px;
+      margin:15px 15px;
+      border:3px solid black;
+      width:1100px;
+      height:150px;
+      display:flex;
+      align-items: center;
+      flex-direction: row-reverse;}
+
+      .pmain3 ol{display:flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+      }
+      .pmain3 ol li {width: 100px;
+        height: 100px;
+        background-color: black;
+        border:2px solid white;
+        padding:15px;
+        color:white;
+      }
+  
+  .right{padding: 5px;
+    margin:20px 30px 20px 30px;
+    border:3px solid black;
+    width:100%;
+  }
+  
+  .right h2{padding:15px;}
+  
+  .right p{padding: 15px;}
+  
